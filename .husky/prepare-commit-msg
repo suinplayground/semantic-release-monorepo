@@ -1,4 +1,6 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
+env
+
 exec < /dev/tty && npx git-cz --hook || true
