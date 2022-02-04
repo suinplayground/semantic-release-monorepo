@@ -107,8 +107,9 @@ module.exports = {
           changelogFile, // changelogFileの変更をコミットするため
         ],
         // コミットメッセージ
+        // TODO
         message:
-          "release: 🏹 ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}",
+          "release: 🏹 ${nextRelease.gitTag} [skip ci]\n\n${nextRelease.notes}",
       },
     ],
     /**
@@ -119,10 +120,12 @@ module.exports = {
       "@semantic-release/github",
       {
         // 関連するissueやPRにつけるラベル
-        releasedLabels: ["released", "released-in-v${nextRelease.version}"],
+        // todo
+        releasedLabels: ["released", "released-in-${nextRelease.gitTag}"],
         // 関連するissueやPRに残すコメント
         successComment:
-          "🎉 This ${issue.pull_request ? 'pull request' : 'issue'} is included in version ${nextRelease.version}.",
+          // TODO
+          "🎉 This ${issue.pull_request ? 'pull request' : 'issue'} is included in version ${nextRelease.gitTag}.",
       },
     ],
     /**

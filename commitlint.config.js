@@ -18,7 +18,9 @@ module.exports = {
     "scope-enum": [2, "always", scopeEnum],
     "subject-min-length": [2, "always", subjectMinLength],
     "subject-max-length": [2, "always", subjectMaxLength],
-    "body-max-length": [0],
-    "body-max-line-length": [0],
+    "body-max-length": [0], // releaseコミットがエラーになるため無効化する
+    "body-max-line-length": [0], // releaseコミットがエラーになるため無効化する
+    "footer-max-length": [0], // releaseコミットがエラーになるため無効化する
+    "footer-max-line-length": [0], // releaseコミットがエラーになるため無効化する
   },
 };
