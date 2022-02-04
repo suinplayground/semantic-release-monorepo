@@ -1,3 +1,14 @@
+## @my-project/a [2.0.0](https://github.com/suinplayground/semantic-release-monorepo/compare/@my-project/a@1.1.0...@my-project/a@2.0.0) (2022-02-04)
+
+
+### ⚠ BREAKING CHANGES
+
+* **a:** 🧨 some
+
+### Features
+
+* **a:** 🎸 add breaking change ([e1deaef](https://github.com/suinplayground/semantic-release-monorepo/commit/e1deaef8d34b8e8ac3beeb44f660f117b3454a93))
+
 ## @my-project/a [1.1.0](https://github.com/suinplayground/semantic-release-monorepo/compare/@my-project/a@1.0.1...@my-project/a@1.1.0) (2022-02-04)
 
 
