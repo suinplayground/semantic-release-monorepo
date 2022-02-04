@@ -32,6 +32,7 @@ module.exports = {
   ],
   /**
    * Gitタグのフォーマット。Lodashのテンプレートが使えます。
+   * multi-semantic-releaseを使った場合は、この設定は無視されます。
    */
   tagFormat: "v${version}",
   /**
@@ -107,7 +108,6 @@ module.exports = {
           changelogFile, // changelogFileの変更をコミットするため
         ],
         // コミットメッセージ
-        // TODO
         message:
           "release: 🏹 ${nextRelease.gitTag} [skip ci]\n\n${nextRelease.notes}",
       },
@@ -120,11 +120,9 @@ module.exports = {
       "@semantic-release/github",
       {
         // 関連するissueやPRにつけるラベル
-        // todo
         releasedLabels: ["released", "released-in-${nextRelease.gitTag}"],
         // 関連するissueやPRに残すコメント
         successComment:
-          // TODO
           "🎉 This ${issue.pull_request ? 'pull request' : 'issue'} is included in version ${nextRelease.gitTag}.",
       },
     ],
