@@ -1,3 +1,10 @@
+## @my-project/a [1.1.0](https://github.com/suinplayground/semantic-release-monorepo/compare/@my-project/a@1.0.1...@my-project/a@1.1.0) (2022-02-04)
+
+
+### Features
+
+* **a:** 🎸 add ([952df86](https://github.com/suinplayground/semantic-release-monorepo/commit/952df868c3a7b786a4d99dbf5719ba85599b3597)), closes [#2](https://github.com/suinplayground/semantic-release-monorepo/issues/2)
+
 ### @my-project/a [1.0.1](https://github.com/suinplayground/semantic-release-monorepo/compare/@my-project/a@1.0.0...@my-project/a@1.0.1) (2022-02-03)
 
 
