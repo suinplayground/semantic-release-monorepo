@@ -33,6 +33,7 @@
     "semantic-release": "^19.0.2"
   },
   "workspaces": [
-    "packages/a"
+    "packages/a",
+    "packages/b"
   ]
 }

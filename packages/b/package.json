@@ -1,0 +1,23 @@
+{
+  "name": "@my-project/b",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suinplayground/semantic-release-monorepo.git"
+  },
+  "author": "My Organization <support@example.com> (https://example.com/)",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/suinplayground/semantic-release-monorepo/issues"
+  },
+  "homepage": "https://github.com/suinplayground/semantic-release-monorepo#readme",
+  "dependencies": {
+    "@my-project/a": "^1.1.0"
+  }
+}
