@@ -1,6 +1,6 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-env > /tmp/env
-
-[ -z "${SKIP_BY_SEMANTIC_RELEASE}" ] && exec < /dev/tty && npx git-cz --hook || true
+[ -z "${SKIP_BY_SEMANTIC_RELEASE}" ] && {
+  exec < /dev/tty && npx git-cz --hook
+} || true
