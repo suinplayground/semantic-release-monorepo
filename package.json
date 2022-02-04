@@ -10,6 +10,10 @@
     "type": "git",
     "url": "https://github.com/suinplayground/semantic-release-monorepo.git"
   },
+  "engines": {
+    "npm": "7.18.x"
+  },
+  "packageManager": "npm@7.18.1",
   "license": "UNLICENSED",
   "author": "My Organization <support@example.com> (https://example.com/)",
   "main": "index.js",
